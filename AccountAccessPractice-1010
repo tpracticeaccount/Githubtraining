@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "account:DeleteAlternateContact",
+                "account:GetAlternateContact",
+                "account:PutAlternateContact"
+            ],
+            "Resource": "arn:aws:account::914766616906:account"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "account:EnableRegion",
+                "account:DisableRegion",
+                "account:ListRegions"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
